@@ -1,0 +1,4 @@
+.nav { display: flex; align-items: center; gap: 1.5rem; padding: 1rem 2rem; background: #222; }
+.title { color: #fff; font-weight: 700; margin-right: auto; }
+.link { color: #fff; text-decoration: none; }
+.link:hover { text-decoration: underline; }

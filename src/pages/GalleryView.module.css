@@ -1,0 +1,13 @@
+.page { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
+.status { text-align: center; padding: 2rem; }
+.filters { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.chip, .clear { padding: 0.4rem 0.9rem; font-size: 0.9rem; border: 1px solid #bbb; border-radius: 999px; background: #fff; cursor: pointer; }
+.chip:hover { border-color: #222; }
+.active { background: #222; color: #fff; border-color: #222; }
+.clear { border-style: dashed; }
+.count { color: #666; margin: 1rem 0 0.5rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 1rem; }
+.card { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; padding: 1rem; background: #fff; border-radius: 10px; text-decoration: none; color: inherit; text-align: center; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+.card:hover { box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); }
+.image { width: 100px; height: 100px; object-fit: contain; }
+.name { font-weight: 600; font-size: 0.9rem; }
